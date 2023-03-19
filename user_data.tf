@@ -20,6 +20,6 @@ resource "aws_instance" "user_data_example" {
 	EOF
 
   tags = {
-    Name = "Ec2-User-data1"
+    Name = "Ec2-User-data2"
   }
 }
