@@ -1,6 +1,6 @@
 resource "aws_security_group" "allow_ssh" {
-  name        = "allow_SSH"
-  description = "Allow SSH inbound traffic"
+  name        = "allow_SSH1"
+  description = "Allow SSH inbound traffic1"
   vpc_id      = "vpc-0c92f205aed1d57bb"
 
   ingress {
